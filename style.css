@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document coded by Lee Dydo, www.leedydo.com */
+
+body {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: PowderBlue;
+	background-repeat: repeat;
+	color: #587073;
+	text-align: justify;
+	background-image: url('strip.png');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size:250%;
+	text-align: center;
+	padding: 0px;
+}
+
+.rectangle{
+	padding: 15px;
+	margin: 15px;
+	width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+	background-color: white;
+	border-radius:25px;
+	box-shadow: 10px 10px 50px #587073;
+}
+.rectangle .content{
+	margin: 0px 30px 0px 30px;
+}
+.rectangle h1{
+	border-style: solid; 
+	border-color: PowderBlue;
+	background-color: #DFF3F5;
+	padding: 0px;
+	margin: 0px;
+	border-radius:25px;
+
+}
+.rectangle  h2{
+	font-size:200%;
+	margin: 5px 15px 0px 360px;
+	
+}
+
+.rectangle  p{
+	font-size:120%;
+	margin: 10px;
+	text-indent: 1.5em;
+
+}
+
+img.floatLeft{
+	float: left; 
+    margin: 35px 15px 0px 15px;
+	width: 200px;
+	height: auto;
+	border-radius: 25px;
+}
